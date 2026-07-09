@@ -25,6 +25,14 @@ public class Exam_16 {
 		int tot=kor+eng+math;
 		double ave=(int)(tot/3.*100+0.5)/100.;
 		
+		/*String result="";
+		if(ave>=80) {
+			result="합격";
+		}else {
+			"불합격";
+		}
+		*/
+		
 		String result = (ave>=80)?"합격":"불합격";
 		
 		System.out.println("이름\t총점\t평균\t판정");
