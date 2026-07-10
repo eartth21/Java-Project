@@ -44,6 +44,11 @@ public class Exam_09 {
 			b=c;
 			c=imsi;
 		}
+		if(b>d) {
+			int imsi=b;
+			b=d;
+			d=imsi;
+		}
 		if(c<d) {
 			int imsi=b;
 			b=d;
