@@ -1,0 +1,18 @@
+package com.mnu.exam01;
+
+public class Exam_05 {
+
+	public static void main(String[] args) {
+		int n=20;
+		n+=10;//30
+		n-=6;//24
+		n*=2;//48
+		n/=4;//12
+		n%=5;//2
+		
+		System.out.println(n);
+		
+		
+	}
+
+}
